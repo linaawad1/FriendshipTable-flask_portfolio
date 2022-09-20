@@ -12,7 +12,7 @@ def portfolio():
 # connects /kangaroos path to render kangaroos.html
 @app_projects.route('/kangaroos/')
 def kangaroos():
-    return render_template("kangaroos.html")
+    return render_template("https://lydia-c2.github.io/lyds.github.io/")
 
 @app_projects.route('/walruses/')
 def walruses():
